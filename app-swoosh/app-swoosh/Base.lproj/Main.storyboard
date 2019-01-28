@@ -168,7 +168,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8BH-F6-ywH" kind="show" id="6BT-0a-jnb"/>
+                                    <action selector="onNextTap:" destination="Sxq-Mc-ONd" eventType="touchUpInside" id="h6L-Kr-VDN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhX-h8-CKW">
@@ -325,7 +325,4 @@
         <image name="swooshLogo" width="119" height="20"/>
         <image name="welcomeScreenBG" width="414" height="736"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Z4e-kN-6pQ"/>
-    </inferredMetricsTieBreakers>
 </document>

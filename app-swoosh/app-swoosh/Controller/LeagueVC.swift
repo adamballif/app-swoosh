@@ -17,9 +17,12 @@ class LeagueVC: UIViewController {
     }
     
     
-    @IBAction func onNextTapped(_ sender: Any) {
+    @IBAction func onNextTap(_ sender: Any) {
         performSegue(withIdentifier: "skillVCSegue", sender: self)
     }
+   // @IBAction func onNextTapped(_ sender: Any) {
+        //performSegue(withIdentifier: "skillVCSegue", sender: self)
+    //}
     
     
     
